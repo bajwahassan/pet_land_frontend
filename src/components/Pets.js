@@ -11,20 +11,21 @@ class Pets extends Component {
   }
 
   render() {
-    
-    const pets = this.props.pets.map(( pet, i ) => (
-      <Pet key={i} pet={ pet } />)
+
+    const renderPets = this.props.pets.map(( pet, id ) => (
+      <Pet key={id} pet={ pet } />)
     )
 
     return (
       <div>
-        <h3>Pets</h3>
+        <h3>All Pets</h3>
         <ul className="collection">
-          {pets}
+          {renderPets}
         </ul>
       </div>
     )
   }
+
 }
 
 const mapStateToProps = state => {
