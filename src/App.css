@@ -94,11 +94,39 @@ background-size: cover;
 }
 .Home-Page{
   text-align: center;
-}
-.navbar{
-  {background-color: coral;}
-}
+  font-family: "Comic Sans MS", cursive, sans-serif;
 
+}
+.nav-bar{
+
+  background-color: DarkSeaGreen;
+
+}
+.contact-page{
+
+  font-family: "Comic Sans MS", cursive, sans-serif;
+
+
+  /* Full height */
+
+
+  /* Center and scale the image nicely */
+
+
+
+}
+.global{
+
+  background-image: url("https://i.imgur.com/7vECV70.jpg");
+
+
+}
+.w3-myfont {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.pet{
+  font-family: "Comic Sans MS", cursive, sans-serif
+}
 
 /*
 .card {
