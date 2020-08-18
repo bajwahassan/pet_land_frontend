@@ -6,7 +6,7 @@ import * as serviceWorker from './serviceWorker';
 import { Provider } from 'react-redux'
 import { createStore, applyMiddleware } from 'redux'
 import thunk from 'redux-thunk'
-import './custom.scss';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import rootReducer from './reducers/rootReducer'
 
 let store = createStore(rootReducer, applyMiddleware(thunk))

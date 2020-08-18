@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Pet from './Pet'
 import { connect } from 'react-redux'
 import { fetchPets } from '../actions/fetchPets'
+import "../App.css"
 
 
 class Pets extends Component {
@@ -17,11 +18,17 @@ class Pets extends Component {
     )
 
     return (
-      <div>
+      <div className="bg" >
         <h3>All Pets</h3>
-        <ul className="collection">
-          {renderPets}
-        </ul>
+        <div className="bg">
+          <div class = "bg">
+            <ul className="bg">
+              {renderPets}
+            </ul>
+          </div>
+
+        </div>
+
       </div>
     )
   }

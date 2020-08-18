@@ -10,7 +10,7 @@ const Pet = ({pet, deletePet}) => {
       Species: { pet.species } <br />
       Breed: { pet.breed } <br />
       Description: { pet.description } <br />
-      <button onClick={()=>deletePet(pet.id)}>delete</button> <br/>
+    <button onClick={()=>deletePet(pet.id)} class="btn btn-danger btn-sm">delete</button> <br/>
       -----------------------------------
     </li>
     );
