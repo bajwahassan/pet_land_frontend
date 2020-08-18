@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import NavBar from './components/NavBar';
 import Pets from './components/Pets';
 import AddPet from './components/AddPet'
+import Contact from './components/Contact'
 import './App.css';
 
 
@@ -23,6 +24,7 @@ class App extends Component {
             <Route exact path="/" component={ Home } />
             <Route exact path="/pets" component={Pets} />
             <Route exact path="/pets/new" component={AddPet} />
+            <Route exact path="/contact" component={Contact} />
           </Switch>
         </div>
       </Router>
