@@ -31,9 +31,11 @@ export class AddPet extends Component {
 
   render() {
     return (
+      <div className="bg">
+
       <form onSubmit={ this.handleSubmit }>
-      <Container className="pet-form">
-        <h2>Create Pet</h2>
+      <Container className="pet-form"><br/><br/>
+        <h2>Create Pet</h2><br/>
         <Form className="form">
           <Col>
             <FormGroup>
@@ -101,6 +103,7 @@ export class AddPet extends Component {
         </Form>
       </Container>
       </form>
+      </div>
     )
   }
 }

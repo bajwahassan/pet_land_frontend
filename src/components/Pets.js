@@ -18,15 +18,14 @@ class Pets extends Component {
     )
 
     return (
-      <div className="bg" >
-        <h3>All Pets</h3>
-        <div className="bg">
-          <div class = "bg">
-            <ul className="bg">
+      <div className="global" >
+        <h3 class="w3-myfont">All Pets</h3>
+        <div className="container">
+          <div class = "cards-list">
+            <ul className="">
               {renderPets}
             </ul>
           </div>
-
         </div>
 
       </div>
