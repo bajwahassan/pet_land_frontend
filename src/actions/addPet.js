@@ -11,7 +11,7 @@ const addPet = pet => {
     .then(pet => {
       dispatch({
         type: "ADD_PET",
-        pet
+        pet 
       })
     })
   }
