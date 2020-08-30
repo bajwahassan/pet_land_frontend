@@ -45,13 +45,13 @@ class Pets extends Component {
 
     return (
       <div className="global" >
-        <h3 class="w3-myfont">All Pets</h3>
+        <h3 className="w3-myfont">All Pets</h3><br/>
 
         <label htmlFor="search"> search by species: </label>
-        <input type= "text" value={this.state.text} onChange={this.handleSearch}/>
+        <input type= "text" value={this.state.text} onChange={this.handleSearch}/><br/>
 
         <div className="container">
-          <div class = "cards-list">
+          <div className = "cards-list">
             <ul className="">
               {(
                 ()=> {
