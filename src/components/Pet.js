@@ -1,5 +1,5 @@
-import React from 'react'
 // import React, { Component } from 'react';
+import React from 'react'
 import {deletePet} from '../actions/deletePet'
 import { connect } from 'react-redux'
 import LikeButton from '../components/LikeButton'
@@ -9,18 +9,18 @@ import LikeButton from '../components/LikeButton'
 const Pet = ({pet, deletePet}) => {
 
     return (
-    <li className="pet">
-      Pet Name: {pet.name}<br />
-      Age: { pet.age } <br />
-      Species: { pet.species } <br />
-      Breed: { pet.breed } <br />
-      Description: { pet.description } <br />
+    <div className="pet">
+      <li>Pet Name: {pet.name}</li>
+      <li>Age: { pet.age }</li>
+      <li>Species: { pet.species }</li>
+      <li>Breed: { pet.breed }</li>
+      <li>Description: { pet.description }</li>
 
 
     <LikeButton/>
-    <button onClick={()=>deletePet(pet.id)} class="btn btn-danger btn-sm">delete</button> <br/>
+    <button onClick={()=>deletePet(pet.id)} className="btn btn-outline-danger btn-sm">delete</button> <br/>
       -----------------------------------
-    </li>
+    </div>
     );
 }
 // ------------------
